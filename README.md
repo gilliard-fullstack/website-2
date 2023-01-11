@@ -14,7 +14,7 @@
 ## Clonando o Repositório
 
 ```bash
-git clone https://github.com/gilliard-code/website1.git
+git clone https://github.com/gilliard-fullstack/website-2.git
 ```
 
 ### Requerimentos
