@@ -1,0 +1,33 @@
+/* Left Side Container */
+.left-side {
+    width: 5vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 0;
+    background: rgb(255, 255, 255);
+}
+
+/* Navbar */
+.left-navbar {
+    width: 2vw;
+    height: 65vh;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Navbar Item */
+.left-item {
+    transform: rotate(-90deg);
+}
+
+.left-item:hover {
+    color: rgb(53, 173, 191);
+}

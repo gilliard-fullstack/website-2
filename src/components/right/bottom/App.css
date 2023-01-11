@@ -1,0 +1,145 @@
+/* Bottom */
+.bottom {
+    width: 95vw;
+    height: 90vh;
+    padding-left: 3.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgb(246, 247, 251);
+}
+
+.bottom-left {
+    width: 40vw;
+    height: 70vh;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.bottom-left-number {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    color: gray;
+}
+
+.bottom-left-text {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 110px;
+    color: rgb(43, 52, 59);
+}
+
+.bottom-left-green-dot {
+    font-size: 100px;
+    color: rgb(136, 171, 88);
+}
+
+.bottom-left-subtitle {
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 20px;
+    color: rgb(151, 152, 156);
+}
+
+.bottom-left-arrow {
+    width: 7vw;
+    height: 5vh;
+    font-size: 14px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(151, 152, 156);
+}
+
+.bottom-left-icon {
+    font-size: 25px;
+    color: rgb(43, 52, 59);
+}
+
+.bottom-left-video-box {
+    width: 17vw;
+    height: 20vh;
+    margin-top: 35px;
+    border-radius: 10px;
+    background: url('../../../img/house.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bottom-left-video-box::before {
+    content: '>';
+    position: absolute;
+    width: 2vw;
+    height: 4vh;
+    margin-left: 1vw;
+    margin-top: 15vh;
+    border-radius: 1vw;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.bottom-left-video-box:hover::before {
+    background: rgb(53, 173, 191);
+}
+
+.bottom-right {
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-start;
+    align-items: center;
+}
+
+/* Right Side Hero */
+.right-side-hero {
+    width: 47.5vw;
+}
+
+.bottom-right-plus-btn-1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 22vh;
+    left: 53vw;
+    border-radius: 25px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    color: rgb(43, 52, 59);
+}
+
+.bottom-right-plus-btn-2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 35vh;
+    left: 65vw;
+    border-radius: 25px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    color: rgb(43, 52, 59);
+}
+
+.bottom-right-plus-btn:hover {
+    background: rgb(53, 173, 191);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
